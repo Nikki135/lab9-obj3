@@ -15,6 +15,7 @@ pipeline {
 			steps {
 				echo 'testing the project........'
 				echo 'Build successful'
+				mail bcc: '', body: 'Build Successful!!', cc: '', from: '', replyTo: '', subject: 'Sucess', to: 'atlurinikhithachowdary@gmail.com'
 			}
 
 		}
