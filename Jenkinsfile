@@ -14,7 +14,6 @@ pipeline {
 		stage("test") {
 			steps {
 				echo 'testing the project........'
-				sh 'pylint netman_netconf_obj2.py'
 			}
 
 		}
